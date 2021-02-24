@@ -2,7 +2,7 @@
   position: fixed;
   top: 0;
   left: 0;
-  width: 20rem;
+  width: 17rem;
   height: 100%;
   background: white;
   box-shadow: 2px 2px 50px gray;
@@ -52,4 +52,8 @@
   background-color: gray;
   border-radius: 20px;
   border: transparent;
+}
+
+.selected {
+  background: rgb(223, 159, 223);
 }
