@@ -18,7 +18,7 @@ const Player = ({
   setCurrentSong,
   setSongs
 }) => {
-  //useEffects
+  //useEffect
   useEffect(()=> {
     const newSongs = songs.map((song) => {
       if (song.id === currentSong.id) {
